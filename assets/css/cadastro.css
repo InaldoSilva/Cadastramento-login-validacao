@@ -31,7 +31,7 @@ body {
     width: 450px;
     height: 450px;
     border-radius: 10px;
-    background-color: #ffffff50;
+    background-color: #ac86b85f;
     border: solid 2px azure;
     box-shadow: 3px 3px 1px 0 silver;
 }
@@ -73,7 +73,6 @@ body {
     right: 0;
     top: 35px;
     filter: contrast(80%);
-
     &:hover {
         cursor: pointer;
         opacity: 0.5;
@@ -103,12 +102,11 @@ body {
     }
 }
 
-.label_float input:focus + label,
-.label_float input:valid+label {
-    font-size: .8rem;
+.label_float input:focus + label {
+    font-size: .7rem;
     top: 0;
     margin-left: 80%;
-    color: aqua;
+    
     transition: all .5s ease-out;
 }
 
@@ -131,9 +129,9 @@ button {
         font-weight: bold;
         border: azure solid 2px;
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-left: 40%;
+        width: 30px;
+        height: 30px;
+        margin-left: 45%;
         transform: scale(1.1);
     }
 }

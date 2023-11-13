@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+</head>
+<body>
+    <main class="content">
+        <div class="container">
+            <div class="card">
+                <h1 class="sign_in">
+                    Cadastro
+                </h1>
+                <div class="label_float">
+                    <input type="text" id="user" placeholder="" required>
+                    <label id="labelUser" for="user">Usuário</label>
+                </div>
+                <div class="label_float">
+                    <input type="email" id="email" placeholder="" required>
+                    <label id="labelEmail" for="Email">E-mail</label>
+                </div>
+                <div class="label_float">
+                    <input type="password" id="senha" placeholder="" required>
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <img id="eye-senha" src="./assets/img/eye-scan-svgrepo-com.svg" alt="" width="20px">
+                </div>
+
+                <div class="label_float">
+                    <input type="password" id="confirmar-senha" placeholder="" required>
+                    <label id="labelConfirmarSenha" for="confirmar-senha">Confirmar Senha</label>
+                    <img id="eye-confirm" src="./assets/img/eye-scan-svgrepo-com.svg" alt="" width="20px">
+                    <div class="button">
+                        <button onclick='cadastrar()'>Ok</button>
+                    </div>
+                </div>
+
+                <div class="switch_to_sign_up">
+                    <p>Já tem uma conta? </p>
+                    <a href="/login.html">Faça Login</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/cadastro.js"></script>
+</body>
+</html>

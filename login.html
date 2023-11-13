@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <title>Entrar</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -14,13 +14,14 @@
                     Login
                 </h1>
                 <div class="label_float">
-                    <input type="text" id="user" placeholder="">
+                    <input type="text" id="user" placeholder="" required>
                     <label for="user">Usuário</label>
                 </div>
 
                 <div class="label_float">
-                    <input type="password" id="password" placeholder="">
-                    <label for="user">Senha</label>
+                    <input type="password" id="senha" placeholder="" required>
+                    <label for="senha">Senha</label>
+                    <img id="eye-senha" src="./assets/img/eye-scan-svgrepo-com.svg" alt="" width="20px">
                     <div class="button">
                         <button>Entrar</button>
                     </div>
@@ -28,12 +29,13 @@
 
                 <div class="switch_to_sign_up">
                     <p>Não tem uma conta? </p>
-                    <a href="">Cadastre-se</a>
+                    <a href="/cadastro.html">Cadastre-se</a>
                 </div>
             
                 </h1>
             </div>
         </div>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
