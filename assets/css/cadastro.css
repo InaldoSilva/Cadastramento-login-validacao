@@ -162,5 +162,14 @@ button {
         max-width: 300px;
         max-height: 400px;
     }
+
+    .label_float {
+        font-size: .7rem;
+    }
+
+    button {
+        width: 40px;
+        margin: 20px 100px;
+    }
 }
 

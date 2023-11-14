@@ -14,7 +14,7 @@ btn.addEventListener('click', ()=> {
 
 
 btnConfirm.addEventListener("click", () => {
-  let inputConfirmarSenha = document.querySelector('#confirmar-senha')
+  let inputConfirmarSenha = document.querySelector('#confirmarSenha')
 
   if (inputConfirmarSenha.getAttribute('type') == 'password') {
     inputConfirmarSenha.setAttribute('type', 'text')
@@ -24,3 +24,6 @@ btnConfirm.addEventListener("click", () => {
 })
 /////////////////Show and hide - end//////////////////
 
+function login() {
+  alert('Login efetuado com sucesso!')
+}

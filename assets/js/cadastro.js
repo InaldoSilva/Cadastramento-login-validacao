@@ -27,42 +27,42 @@ user.addEventListener('keyup', ()=> {
 
 // validação value.length email 
 
-email.addEventListener("keyup", () => {
+email.addEventListener('keyup', () => {
   if (email.value.length <= 4) {
-    labelEmail.setAttribute("style", "background-color: red");
-    labelEmail.innerHTML = "Insira um e-mail válido.";
-    email.setAttribute("style", "border-color: red");
+    labelEmail.setAttribute('style', 'background-color: red')
+    labelEmail.innerHTML = 'Insira um e-mail válido.'
+    email.setAttribute('style', 'border-color: red')
   } else {
-    labelEmail.setAttribute("style", "background-color: green");
-    labelEmail.innerHTML = "E-mail";
-    email.setAttribute("style", "border-color: green");
+    labelEmail.setAttribute('style', 'background-color: green')
+    labelEmail.innerHTML = 'E-mail'
+    email.setAttribute('style', 'border-color: green')
   }
 });
 
 //validação value.length senha
 
-senha.addEventListener("keyup", () => {
+senha.addEventListener('keyup', () => {
   if (senha.value.length <= 7 ) {
-    labelSenha.setAttribute("style", "background-color: red")
-    labelSenha.innerHTML = "Insira no mínimo 8 caracteres."
-    senha.setAttribute("style", "border-color: red")
+    labelSenha.setAttribute('style', 'background-color: red')
+    labelSenha.innerHTML = 'Insira no mínimo 8 caracteres.'
+    senha.setAttribute('style', 'border-color: red')
   } else {
-    labelSenha.setAttribute("style", "background-color: green")
-    labelSenha.innerHTML = "Senha"
-    senha.setAttribute("style", "border-color: green")
+    labelSenha.setAttribute('style', 'background-color: green')
+    labelSenha.innerHTML = 'Senha'
+    senha.setAttribute('style', 'border-color: green')
     
   }
 })
 
-confirmarSenha.addEventListener("keyup", () => {
-  if (confirmarSenha.value.length <= 7) {
-    labelConfirmarSenha.setAttribute("style", "background-color: red")
-    labelConfirmarSenha.innerHTML = "Insira no mínimo 8 caracteres."
-    confirmarSenha.setAttribute("style", "border-color: red")
+confirmarSenha.addEventListener('keyup', () => {
+  if (confirmarSenha.value.length <= 7 ) {
+    labelConfirmarSenha.setAttribute("style", "background-color: red");
+    labelConfirmarSenha.innerHTML = "Insira no mínimo 8 caracteres.";
+    confirmarSenha.setAttribute('style', 'border-color: red')
   } else {
-    labelConfimarSenha.setAttribute("style", "background-color: green")
-    labelConfirmarSenha.innerHTML = "Senha"
-    confirmarSenha.setAttribute("style", "border-color: green")
+    labelConfirmarSenha.setAttribute("style", "background-color: green");
+    labelConfirmarSenha.innerHTML = "Senha";
+    confirmarSenha.setAttribute('style', 'border-color: green')
   }
 })
 
@@ -71,5 +71,6 @@ confirmarSenha.addEventListener("keyup", () => {
 function cadastrar () {
 
     alert('Cadastro efetuado!')
+    location.reload()
 
 }
