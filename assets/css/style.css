@@ -124,7 +124,7 @@ button {
     font-family: 'montserrat';
     border: none;
     border-radius: 7px;
-    margin: 7% 36%;
+    margin: 7% 38%;
     transition: all .3s ease-in-out;
     &:hover {
         background-color: rgba(0, 255, 255, 0.676);

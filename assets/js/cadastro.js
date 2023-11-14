@@ -71,6 +71,6 @@ confirmarSenha.addEventListener('keyup', () => {
 function cadastrar () {
 
     alert('Cadastro efetuado!')
-    location.reload()
+    location.replace(location.href='/login.html')
 
 }
